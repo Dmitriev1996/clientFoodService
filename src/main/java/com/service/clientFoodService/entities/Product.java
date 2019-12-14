@@ -22,7 +22,7 @@ import java.util.List;
  * Created by Admin on 14.12.2019.
  */
 @Entity
-@Table(name = "PRODUCT")
+@Table(name = "products")
 @Getter
 @Setter
 public class Product implements Serializable {

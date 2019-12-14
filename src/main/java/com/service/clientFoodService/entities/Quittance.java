@@ -20,7 +20,7 @@ import java.util.Date;
  * Created by Admin on 14.12.2019.
  */
 @Entity
-@Table(name = "QUITTANCES")
+@Table(name = "quittances")
 @Getter
 @Setter
 public class Quittance implements Serializable {
@@ -37,6 +37,8 @@ public class Quittance implements Serializable {
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "CREATED_DATE")
     private Date createdDate;
+
+    public Quittance(){}
 
 
 }

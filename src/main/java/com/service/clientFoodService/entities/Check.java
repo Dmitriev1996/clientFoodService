@@ -20,7 +20,7 @@ import java.util.Date;
  * Created by Admin on 14.12.2019.
  */
 @Entity
-@Table(name = "CHECKS")
+@Table(name = "checks")
 @Getter
 @Setter
 public class Check implements Serializable {
