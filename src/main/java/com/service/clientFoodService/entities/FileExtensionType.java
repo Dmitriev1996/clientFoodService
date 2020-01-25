@@ -15,7 +15,7 @@ import java.io.Serializable;
  * Created by Admin on 14.12.2019.
  */
 @Entity
-@Table(name = "FILE_EXTENSIONS")
+@Table(name = "file_extensions")
 @Getter
 @Setter
 public class FileExtensionType implements Serializable {

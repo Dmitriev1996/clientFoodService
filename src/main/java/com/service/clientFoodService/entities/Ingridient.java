@@ -16,7 +16,7 @@ import java.math.BigDecimal;
  * Created by Admin on 14.12.2019.
  */
 @Entity
-@Table(name = "INGRIDIENTS")
+@Table(name = "ingridients")
 @Getter
 @Setter
 public class Ingridient implements Serializable {

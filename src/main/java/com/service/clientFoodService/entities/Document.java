@@ -16,7 +16,7 @@ import javax.persistence.Table;
  * Created by Admin on 14.12.2019.
  */
 @Entity
-@Table(name = "DOCUMENT")
+@Table(name = "documents")
 @Getter
 @Setter
 public class Document {

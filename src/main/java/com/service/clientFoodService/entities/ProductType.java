@@ -14,7 +14,7 @@ import javax.persistence.Table;
  * Created by Admin on 14.12.2019.
  */
 @Entity
-@Table(name = "PRODUCT_TYPES")
+@Table(name = "product_types")
 @Getter
 @Setter
 public class ProductType {
@@ -26,4 +26,6 @@ public class ProductType {
 
     @Column(name = "PRODUCT_TYPE")
     private String productType;
+
+    public ProductType(){}
 }

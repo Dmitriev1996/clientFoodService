@@ -14,7 +14,7 @@ import javax.persistence.Table;
  * Created by Admin on 14.12.2019.
  */
 @Entity
-@Table(name = "ADDRESSES")
+@Table(name = "addresses")
 @Getter
 @Setter
 public class Address {
@@ -32,6 +32,12 @@ public class Address {
 
     @Column(name = "HOUSE_NUMBER")
     private int houseNumber;
+
+    @Column(name = "CORPUS")
+    private String corpus;
+
+    @Column(name = "ENTRANCE_NUMBER")
+    private int entranceNumber;
 
     @Column(name = "APPARTAMENT_NUMBER")
     private int appartamentNumber;
