@@ -32,7 +32,7 @@ public class SecurityResource {
 
     @PostMapping("/registration")
     public ResponseEntity<?> registration(@RequestBody RegistrationRequestDTO requestDTO) throws Exception {
-        try {;
+        try {
             return ResponseEntity.ok(userAuthenticationService.registration(requestDTO));
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(e.getMessage());
